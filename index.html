@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mazlo.me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-itunes-app" content="app-id=1181133202">
+        <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+        <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+        <link rel="icon" type="image/png" href="img/114x114.png" sizes="114x114" />
+        <link rel="icon" type="image/png" href="img/120x120.png" sizes="120x120" />
+        <link rel="icon" type="image/png" href="img/180x180.png" sizes="180x180" />
+
+        <link rel="apple-touch-icon" type="image/png" href="img/114x114.png" sizes="114x114" />
+        <link rel="apple-touch-icon" type="image/png" href="img/120x120.png" sizes="120x120" />
+        <link rel="apple-touch-icon" type="image/png" href="img/180x180.png" sizes="180x180" />
+
+        <meta property="og:title" content="Real advice from real experts." />
+        <meta property="og:site_name" content="http://www.mazlo.me" />
+        <meta property="og:url" content="http://www.mazlo.me" />
+        <meta property="og:description" content="Mazlo's expert coaches help people with life’s most common challenges." />
+        <meta property="og:type" content="product" />
+
+        <link rel="stylesheet" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+        <link rel="stylesheet" media="screen" href="css/index.css" />
+        <link rel="stylesheet" media="screen" href="http://unpkg.com/flickity@2.0/dist/flickity.css" />
+        <link rel="stylesheet" media="screen" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+        <script src="https://use.typekit.net/jms5lhb.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+        <script>gon = {};</script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.0/svg4everybody.min.js"></script>
+        <script src="http://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script>
+         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5GR6NJS');
+        </script>
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GR6NJS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+    </head>
+    <body>
+        <main class="bg-beige">
+            <div class="fixed nav-wrapper max-width-6 mx-auto js-marketing-nav-wrapper bg-white fade-wrapper">
+                <nav class="header relative flex py2 px2 sm-px3 max-width-5 mx-auto">
+                    <div class="flex flex-auto items-center">
+                        <a class="black" href="/" title="Home">
+                            <svg width="71" height="12">
+                                <use xlink:href="#mazlo-logo" />
+                            </svg>
+                        </a>
+                        <a href="#" data-content="more-about-mazlo" class="ml2 md-ml3 link p0 b0 black js-open-modal font-size-12">FAQ</a>
+                        <a class="link grey ml1 md-ml3 black p0 font-size-12" href="#pricing">Pricing</a>
+                    </div>
+                    <div>
+                        <a href="/cdn-cgi/l/email-protection#7811161e1738151902141756151d" class="button button--transparent br4 mx1 sm-px3 button--tertiary">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                <symbol viewBox="0 0 16 16" id="checkmark-small"><title>checkmark-small</title><path d="M6.331 11.763a.788.788 0 0 0 1.127 0l5.309-5.384a.816.816 0 0 0 0-1.142.788.788 0 0 0-1.126 0l-4.76 4.8L5.36 8.493a.788.788 0 0 0-1.126 0 .816.816 0 0 0 0 1.142l2.098 2.128z" fill-rule="evenodd"/></symbol>
+                <symbol id="apple" viewBox="0 0 17 21"><path fill="#252642" d="M13.938 10.908c-.023-2.591 2.122-3.852 2.22-3.91-1.215-1.772-3.098-2.014-3.76-2.033-1.58-.167-3.115.946-3.92.946-.822 0-2.063-.93-3.4-.903-1.72.027-3.33 1.023-4.213 2.57-1.822 3.154-.463 7.79 1.283 10.339.873 1.248 1.893 2.642 3.228 2.593 1.307-.054 1.795-.833 3.372-.833 1.562 0 2.02.833 3.382.802 1.402-.023 2.285-1.254 3.128-2.514 1.009-1.431 1.414-2.84 1.43-2.913-.033-.011-2.723-1.038-2.75-4.144zm-2.572-7.62c.702-.88 1.183-2.075 1.05-3.288-1.017.045-2.29.704-3.022 1.563-.648.757-1.227 1.999-1.077 3.166 1.142.085 2.315-.576 3.049-1.441z"/></symbol>
+                <symbol id="email" viewBox="0 0 17 16"><path fill="#B6B7C9" d="M17 15.008A1 1 0 0 1 16 16H1c-.552 0-1-.442-1-.992V5.353c0-.548.387-1.204.878-1.472L7.622.2c.485-.265 1.265-.268 1.756 0l6.744 3.681c.485.265.878.921.878 1.472v9.655z"/><path fill="#252642" d="M7.752 10.723a1.149 1.149 0 0 0 1.496 0l4.506-4.05c.413-.372.292-.673-.255-.673H3.5c-.554 0-.663.306-.255.672l4.506 4.051z"/></symbol>
+                <symbol id="messenger" viewBox="0 0 20 20"><path fill="#359DFF" d="M10 0C4.477 0 0 4.145 0 9.26c0 2.913 1.454 5.512 3.727 7.21V20l3.405-1.869c.908.252 1.871.388 2.868.388 5.523 0 10-4.146 10-9.26S15.523 0 10 0z"/><path fill="#FFF" d="M10.994 12.469L8.447 9.753l-4.969 2.716 5.466-5.802 2.609 2.716 4.907-2.716z"/></symbol>
+                <symbol id="text-message" viewBox="0 0 22 14"><path fill="#5CDB88" d="M16.558 12.29a6.967 6.967 0 0 1-4.58 1.71h-4.98a7 7 0 0 1 0-14h4.98a7 7 0 0 1 6.997 7.123v3.65s.018 1.859 2.178 3.227c0 0-3.341-.004-4.528-1.616a5.572 5.572 0 0 1-.067-.094z"/></symbol>
+                <symbol id="mazlo-logo" viewBox="0 0 71 14"><title>Mazlo Logo</title><path d="M67.2 7.032v-.05c0-1.966-1.435-3.683-3.55-3.683-2.188 0-3.496 1.665-3.496 3.63v.05c0 1.967 1.434 3.684 3.547 3.684 2.19 0 3.5-1.667 3.5-3.633zm-10.82 0v-.05C56.38 3.15 59.5.04 63.7.04c4.178 0 7.273 3.06 7.273 6.892v.05c0 3.832-3.12 6.943-7.322 6.943-4.174 0-7.27-3.06-7.27-6.893zm-7.345 3.76V2.014h-.004c0-1.048-.84-1.896-1.89-1.932h-2.08v13.865h8.727c1-.068 1.793-.872 1.82-1.873h.005v-1.282h-6.577m-11.263 3.155h3.188c1.05-.024 1.89-.856 1.92-1.892h.005v-1.307h-7.17l2.057 3.2M33.032.093c-1.062.007-1.93.848-1.96 1.895v1.304h6.886l-4.136 4.513 1.892 2.942 6.83-7.452c.248-.27.383-.672.383-1.09V.095h-9.894M26.43.097C25.826.1 25.293.39 24.985.87L16.56 13.965h3.062c.57-.007 1.107-.278 1.425-.77l5.368-8.34 5.368 8.34c.318.492.854.763 1.405.77h3.082L27.846.87C27.138.484 27.004.1 26.43.098zm-9.738 6.518v4.9l3.76-5.862c-.07-3.08-2.62-5.565-5.75-5.565-1.71 0-3.347.83-4.403 2.004C9.395.884 7.44.107 5.824.107c-.917 0-1.78.213-2.552.584C2.933.34 2.458.114 1.928.1V.093H0V12.09c0 1.036.837 1.876 1.88 1.905V14h1.977V6.615c0-.217.014-.42.04-.612.002-.02.007-.04.01-.06.025-.168.06-.327.103-.474.007-.025.015-.045.023-.067.047-.143.1-.277.166-.4l.02-.042c.074-.13.156-.25.25-.355 0-.002 0-.003.002-.005.388-.44.948-.663 1.638-.673 1.135.018 1.91.62 2.17 1.767.058.278.097.58.097.922v5.61c0 .966.782 1.752 1.754 1.774h2.043V6.616c0-1.78.874-2.692 2.297-2.692s2.222.913 2.222 2.692" fill-rule="evenodd"/></symbol>
+                <symbol id="browser" viewBox="0 0 17 12"><title>Web</title><path d="M17,10.9975267 C17,11.5511774 16.5452911,12 16.0000398,12 L0.999960201,12 C0.447697432,12 9.41469125e-14,11.544239 9.41469125e-14,10.9975267 L9.41469125e-14,1.00247329 C9.41469125e-14,0.448822582 0.454708934,-5.5067062e-14 0.999960201,-5.5067062e-14 L16.0000398,-5.5067062e-14 C16.5523026,-5.5067062e-14 17,0.455760956 17,1.00247329 L17,10.9975267 Z" id="Fill-1" fill="#252642"></path> <path d="M16.1999998,10.0024554 C16.1999998,10.553384 15.7542735,11 15.1981865,11 L1.7518133,11 C1.19852709,11 0.75,10.5536886 0.75,10.0024554 L0.75,2.99754465 C0.75,2.44661595 1.19572634,2 1.7518133,2 L15.1981865,2 C15.7514727,2 16.1999998,2.4463114 16.1999998,2.99754465 L16.1999998,10.0024554 Z" id="Fill-1" fill="#FFFFFF"/></symbol>
+                <symbol id="bubble" viewBox="0 0 11 11"> <title>Bubble</title><path fill="#FFF" fill-rule="evenodd" d="M5.5 11C8.53 11 11 8.538 11 5.5 11 2.47 8.538 0 5.5 0 2.47 0 0 2.462 0 5.5c0 1.08.313 2.09.853 2.94L0 11h5.5z"/></symbol>
+                <symbol id="checkmark" viewBox="0 0 11 8"><path d="M4.111 5.657L1.46 3.005l-.909.91 3.094 3.093.442.442 6.364-6.364-.884-.884-5.455 5.455z"/></symbol>
+                <symbol id="chat-bubble" viewBox="0 0 13 12"><path fill="#FA6F60" fill-rule="evenodd" d="M1.346 5.921C1.366 2.681 3.62 0 6.865 0a5.904 5.904 0 0 1 5.901 5.901 5.904 5.904 0 0 1-5.901 5.902c-.865.061-1.578.044-2.16 0-1.796-.138-3.536-.877-4.395-1.228a.459.459 0 0 1-.289-.57c.17-.544.361-.257.9-1.334.425-1.135.425-2.75.425-2.75z"/></symbol>
+                <symbol id="down-chevron" viewBox="0 0 13 7"><path fill="#263545" fill-rule="evenodd" d="M.973 2.034l4.284 4.223c.69.68 1.792.684 2.486 0l4.284-4.223A.75.75 0 1 0 10.973.966L6.69 5.189a.266.266 0 0 1-.38 0L2.027.966A.75.75 0 0 0 .973 2.034z"/></symbol>
+            </svg>
+            <div class="fade-wrapper pb4 sm-pb0">
+                <section class="relative clearfix max-width-6 mx-auto py3 marketing-hero-wrapper bg-beige">
+                    <div class="marketing-hero js-marketing-hero xs-hide sm-hide">
+                        <div class="relative marketing-hero__slide">
+                            <div class="md-col md-col-5 sm-pr2 mt4 marketing-hero__content max-width-5 md-absolute">
+                                <h1 class="md-h00 my4 sm-mt0 sm-mb2 center md-left-align line-height-1 utopia-semibold">
+                                    Enjoy the baby months.
+                                </h1>
+                                <p class="col-4 md-col-8 line-height-5">
+                                    Get honest parenting advice from real experts, right on your phone.
+                                </p>
+                                <div class="flex col-12 lg-col-9">
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Real experts</p>
+                                        <p class="h5 gray mt0">✓ Genuine guidance</p>
+                                    </div>
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Convenient messaging</p>
+                                        <p class="h5 gray mt0">✓ Private conversations</p>
+                                    </div>
+                                </div>
+                                <p class="h6 center md-left-align mb0 gray">
+                                    Available via SMS 💬&nbsp; and iOS 📱
+                                    <br>No 💳 &nbsp;required.
+                                </p>
+
+                            </div>
+                            <img class="marketing-hero__image" src="img/parenting-hero.jpg" alt="Parenting hero" />
+                        </div>
+
+                        <div class="relative marketing-hero__slide">
+                            <div class="md-col md-col-5 sm-pr2 mt4 marketing-hero__content max-width-5 md-absolute">
+                                <h1 class="md-h00 my4 sm-mt0 sm-mb2 center md-left-align line-height-1 utopia-semibold">
+                                    Tackle your to-do’s.
+                                </h1>
+                                <p class="col-4 md-col-8 line-height-5">
+                                    Get honest stress advice from real experts, right on your phone.
+                                </p>
+                                <div class="flex col-12 lg-col-9">
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Real experts</p>
+                                        <p class="h5 gray mt0">✓ Genuine guidance</p>
+                                    </div>
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Convenient messaging</p>
+                                        <p class="h5 gray mt0">✓ Private conversations</p>
+                                    </div>
+                                </div>
+                                <p class="h6 center md-left-align mb0 gray">
+                                    Available via SMS 💬&nbsp; and iOS 📱
+                                    <br>No 💳 &nbsp;required.
+                                </p>
+
+                            </div>
+                            <img class="marketing-hero__image" src="img/stress-hero.jpg" alt="Stress hero" />
+                        </div>
+
+                        <div class="relative marketing-hero__slide">
+                            <div class="md-col md-col-5 sm-pr2 mt4 marketing-hero__content max-width-5 md-absolute">
+                                <h1 class="md-h00 my4 sm-mt0 sm-mb2 center md-left-align line-height-1 utopia-semibold">
+                                    Keep your mom out of it.
+                                </h1>
+                                <p class="col-4 md-col-8 line-height-5">
+                                    Get honest relationship advice from real experts, right on your phone.
+                                </p>
+                                <div class="flex col-12 lg-col-9">
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Real experts</p>
+                                        <p class="h5 gray mt0">✓ Genuine guidance</p>
+                                    </div>
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Convenient messaging</p>
+                                        <p class="h5 gray mt0">✓ Private conversations</p>
+                                    </div>
+                                </div>
+                                <p class="h6 center md-left-align mb0 gray">
+                                    Available via SMS 💬&nbsp; and iOS 📱
+                                    <br>No 💳 &nbsp;required.
+                                </p>
+
+                            </div>
+                            <img class="marketing-hero__image" src="img/relationships-hero.jpg" alt="Relationships hero" />
+                        </div>
+
+                        <div class="relative marketing-hero__slide">
+                            <div class="md-col md-col-5 sm-pr2 mt4 marketing-hero__content max-width-5 md-absolute">
+                                <h1 class="md-h00 my4 sm-mt0 sm-mb2 center md-left-align line-height-1 utopia-semibold">
+                                    Sleep tight, all night.
+                                </h1>
+                                <p class="col-4 md-col-8 line-height-5">
+                                    Get honest sleep advice from real experts, right on your phone.
+                                </p>
+                                <div class="flex col-12 lg-col-9">
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Real experts</p>
+                                        <p class="h5 gray mt0">✓ Genuine guidance</p>
+                                    </div>
+                                    <div class="col col-6">
+                                        <p class="h5 gray" style="margin-bottom: 0.2rem">✓ Convenient messaging</p>
+                                        <p class="h5 gray mt0">✓ Private conversations</p>
+                                    </div>
+                                </div>
+                                <p class="h6 center md-left-align mb0 gray">
+                                    Available via SMS 💬&nbsp; and iOS 📱
+                                    <br>No 💳 &nbsp;required.
+                                </p>
+
+                            </div>
+                            <img class="marketing-hero__image" src="img/sleep-hero.jpg" alt="Sleep hero" />
+                        </div>
+
+                    </div>
+                    <div class="md-col md-col-6 md-pl2 cursor-default">
+                        <h1 class="md-h00 my4 md-mt0 md-mb2 center md-left-align line-height-1 utopia-semibold">Advice delivered</h1>
+                        <div style="height: 8rem;" class="relative md-hide lg-hide">
+                            <div class="hero-bubble js-participant-bubble z1 hero-bubble--stagedown bs mx-auto col-8 bg-white black line-height-2 br3 brbr-1">
+                                <span>What's the best way to handle my child's public tantrums?</span>
+                            </div>
+                            <div class="js-participant-is-typing is-typing-wrapper flex relative z1 justify-center absolute left-0 right-0 mx-auto">
+                                <div class="is-typing flex items-center bg-white bs br4 brbr-1 px2 py2">
+                                    <span class="is-typing__dots bg-black"></span>
+                                    <span class="is-typing__dots bg-black"></span>
+                                    <span class="is-typing__dots bg-black"></span>
+                                </div>
+                            </div>
+                            <div class="hero-bubble hero-bubble--participant js-coach-bubble z1 hero-bubble--stagedown bs mx-auto col-8 bg-black white line-height-2 br3 brbl-1">
+                                <span>Start by jotting down everything you’d like to do in your free time.</span>
+                            </div>
+                            <div class="js-coach-is-typing is-typing-wrapper is-typing-wrapper--coach is-typing-wrapper--stageout flex relative z1 justify-center absolute left-0 right-0 mx-auto">
+                                <div class="is-typing flex items-center bg-black bs br4 brbl-1 px2 py2">
+                                    <span class="is-typing__dots bg-white"></span>
+                                    <span class="is-typing__dots bg-white"></span>
+                                    <span class="is-typing__dots bg-white"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topic-container pt3 md-pt0 mb3 md-mb0 md-hide lg-hide">
+                            <div class="topic-selector relative pb1 mt2 md-ml2 flex justify-center md-block">
+                                <div class="topic-selector__indicator absolute left-0 js-topic-selector-indicator bg-red"></div>
+                                <span class="js-topic-selector-word topic-selector__word gray fw5 mr2">Parenting</span>
+                                <span class="js-topic-selector-word topic-selector__word gray fw5 mr2">Stress</span>
+                                <span class="js-topic-selector-word topic-selector__word gray fw5 mr2">Relationships</span>
+                                <span class="js-topic-selector-word topic-selector__word gray fw5">Sleep</span>
+                            </div>
+                        </div>
+                        <div class="md-hide lg-hide center">
+                            <p class="md-col-10 line-height-5 mx-auto font-size-18 mobile-max-width-17">Get honest advice from real experts, right on your phone.</p>
+                            <p class="h6 center md-left-align mb0 gray">
+                                Available via SMS 💬&nbsp; and iOS 📱
+                                <br>No 💳 &nbsp;required.
+                            </p>
+
+                            <img src="img/down-chevron.png" alt="Down chevron" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section id="topic-overview" class="max-width-6 mx-auto py3 px2 sm-py4 bg-white">
+                <p class="center line-height-5 measure mx-auto my3 pb0 mt1 gray font-size-18 mobile-max-width-19">
+                    From new bedtime routines to new stress at work, our team of experts is ready to help you manage everything life throws your way.
+                </p>
+                <div class="flex flex-column md-flex-row mb3">
+                    <div class="md-col md-col-3 center px3">
+                        <h2 class="h2 utopia blue">Parenting</h2>
+                        <p class="gray h5">Navigate the world of parenthood.</p>
+                    </div>
+                    <div class="md-col md-col-3 center px3">
+                        <h2 class="h2 utopia peach">Stress</h2>
+                        <p class="gray h5">Learn new ways to reduce daily stress.</p>
+                    </div>
+                    <div class="md-col md-col-3 center px3">
+                        <h2 class="h2 utopia green">Relationships</h2>
+                        <p class="gray h5">Build healthier relationships in your life.</p>
+                    </div>
+                    <div class="md-col md-col-3 center px3">
+                        <h2 class="h2 utopia purple">Sleep</h2>
+                        <p class="gray h5">Sleep better tonight, and every night.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="flex flex-column max-width-6 mx-auto py3 sm-py5 md-px3 items-center bg-gray" style="margin-bottom: 6px">
+                <h2 class="center utopia-semibold utopia-semibold--subheader h1 mb2 fw7">How it works</h2>
+                <p class="center line-height-5 measure mx-auto mt0 mb4 md-mb4 gray font-size-18 px2">
+                    We all struggle to find the right words, people, or search results to get genuine advice. Life is hard, getting the help you need shouldn’t be.
+                </p>
+                <img class="how-it-works__iphone sm-hide md-hide lg-hide" src="img/iphone-how-it-works-mobile.png" alt="Iphone how it works mobile" />
+                <img class="max-width-3 how-it-works__iphone xs-hide" src="img/iphone-how-it-works.png" alt="Iphone how it works" />
+                <div class="flex flex-column md-flex-row mt4 max-width-5">
+                    <div class="col md-col md-col-4 center px1 mb2">
+                        <h2 class="h2 utopia">1. Say hello 👋</h2>
+                        <p class="gray">
+                            Getting started is as easy as typing hi.<br/>
+                            We’re online M - Th, 8:00a - 8:00p and Friday 8a - 5p PT.</p>
+                    </div>
+                    <div class="col md-col md-col-4 center px1 mb2">
+                        <h2 class="h2 utopia">2. Ask your question 🤔</h2>
+                        <p class="gray">Let us know what's on your mind, then answer a few simple questions so we better understand your unique situation.</p>
+                    </div>
+                    <div class="col md-col md-col-4 center px1 mb2">
+                        <h2 class="h2 utopia">3. Chat now and later 💬</h2>
+                        <p class="gray">Our experts will share personalized tips, resources, or videos all in one place, all just for you.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing" class="mt1">
+                <div class="max-width-6 mx-auto py3 sm-py4 px3 bg-white">
+                    <h2 class="utopia-semibold utopia-semibold--subheader h1 mb3 center">Pricing</h2>
+                    <p class="center line-height-5 measure-s mx-auto mb4" style="font-size: 18px;">
+                        From on-the-go advice to timely sessions with our experts, it's never been easier to get real, honest advice right on your phone. Pay-per-session or subscribe for a month at a time. Each option gives you full access to our experts, ready to share advice and guidance tailor-made for you.
+                    </p>
+                    <div class="plans-section">
+                        <div class="clearfix center flex-column md-flex-row flex justify-center items-center max-width-5 sm-mx-auto mb4">
+                            <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                                <h2 class="utopia my0">5 Sessions</h2>
+                                <p class="o-50 mt0 mb3">$9.95</p>
+                            </div>
+                            <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                                <h2 class="utopia my0">15 Sessions</h2>
+                                <p class="o-50 mt0 mb3">$19.99</p>
+                            </div>
+                            <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                                <h2 class="utopia my0">Unlimited</h2>
+                                <p class="o-50 mt0 mb3">$29.99 /month</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-column items-center">
+                            <p class="h6 measure mx-auto gray center italic opacity-75">
+                                💳 &nbsp;processed securely through Stripe.<br />
+                                Experts are online from 8am - 8pm PST.
+                            </p>
+                            <div class="my2" style="width: 12rem;">
+                                <img src="img/verified-and-secured.png" alt="Verified and secured" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="feedback" class="max-width-6 mx-auto py4 px3 center bg-beige">
+                <h2 class="utopia-semibold utopia-semibold--subheader h1 mb3">How are we doing?</h2>
+                <p class="gray max-width-2 center mx-auto font-size-18">Send our team a note or choose an emoji that best describes your experience.</p>
+                <p class="center mt3 mb1">
+                    <span data-answer="Happy" class="emoji-answer js-emoji-answer font-size-24">😀</span>
+                    <span data-answer="Confused" class="m1 emoji-answer js-emoji-answer font-size-24">🤔</span>
+                    <span data-answer="Angry" class="mr1 emoji-answer js-emoji-answer font-size-24">😠</span>
+                    <span data-answer="Sleepy" class="emoji-answer js-emoji-answer font-size-24">😴</span>
+                </p>
+                <p class="left-0 right-0 absolute js-emoji-thank-you gray mt0" style="display: none;">Thank you for your response!</p>
+                <a href="mailto:support@mazlo.me" class="center mt3 block">Email us your thoughts ✉️</a>
+            </section>
+
+            <div class="marketing-modal marketing-modal--hidden px3 flex items-center justify-center js-marketing-modal">
+                <svg class="marketing-modal__close js-close-modal"><use xlink:href="img/svg-sprite.svg#menu-close"></use></svg>
+                <div class="marketing-modal__content js-marketing-content js-more-about-mazlo">
+                    <div class="my4 measure mx-auto">
+                        <h1 class="utopia center mb3">How it Works</h1>
+                        <h3 class="mt3">Who do I talk to?</h3>
+                        <p>You’ll chat with real experts on the Mazlo team, each with years of experience in private practices specializing in Parenting, Relationships, Stress and Sleep. We don’t have incentives or work on commission; we’re all full-time employees focused on helping you with your unique challenge.</p>
+                        <h3 class="mt3">Can I ask anything?</h3>
+                        <p>If it’s related to parenting, relationships, stress or sleep, feel free to ask anything that comes to mind. If we can’t give you a great answer, we’ll point you to a place or provider that can.</p>
+                        <h3 class="mt3">Are messages private?</h3>
+                        <p>Yes, your messages are always confidential and secure. We take your privacy very seriously; if you have any questions or concerns please reach out to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f685838686998482b69b978c9a99d89b93d8">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p>
+                        <h3 class="mt3">How long does it take to respond?</h3>
+                        <p>Questions sent Mon - Thur 8:00a - 8:00p or Friday 8a - 5p PT will be responded to within an hour. If you reach us overnight or over the weekend, we'll respond first thing the next morning or Monday morning, respectively.</p>
+                        <h3 class="mt3">How much does it cost?</h3>
+                        <p>It costs $9.95 for 5 Sessions, $19.99 for 15 Sessions or $29.99/mo for Unlimited Sessions. Sessions are just conversations with our experts; they begin when you ask a question and end when we're able to share advice, guidance or resources to help.</p>
+                        <h3 class="mt3">What if I don't like it?</h3>
+                        <p>We’re here to help you first and foremost, that’s our Mazlo Promise. If you paid for our services and aren’t satisfied just let us know, we’ll work with you to make it right.</p>
+                        <h3 class="mt3">Is there a trial?</h3>
+                        <p>Your first session is always free, no credit card required.</p>
+                    </div>
+                </div>
+                <div class="marketing-modal__content js-marketing-content js-sms center">
+                    <h2 class="utopia h0">We're excited to meet you.</h2>
+                    <p class="center line-height-5 measure-s mx-auto pb2">
+                        Confirm your number below to start your conversation:
+                    </p>
+                    <div class="js-sms-error error m1"></div>
+                    <form class="js-smooch-sms smooch-sms-form clearfix sm-flex items-center max-width-1 mx-auto" id="new_smooch_twilio_user" action="/smooch_twilio_users" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                        <input value="sms" type="hidden" name="smooch_twilio_user[channel_type]" id="smooch_twilio_user_channel_type" />
+                        <div class="flex items-center col col-12 sm-col-10 bg-beige--dark p1 pl2 br4">
+                            <svg height="14" width="22">
+                                <use xlink:href="#text-message" />
+                            </svg>
+                            <input class="pl1" placeholder="Ex: 206-231-9359" type="text" name="smooch_twilio_user[phone_number]" id="smooch_twilio_user_phone_number" />
+                        </div>
+                        <input type="submit" name="commit" value="Send" class="blue mt2 sm-mt0 col col-12 sm-col-2 smooch-sms-form__submit" data-disable-with="Send" />
+                    </form>    <p class="center h6 o-40 measure mx-auto italic">
+                        We won't charge you anything. Message &amp;<br/>
+                        data rates may apply from your carrier.
+                    </p>
+                </div>
+                <div class="marketing-modal__content js-marketing-content js-sms-success center">
+                    <span class="h1">📲</span>
+                    <h2 class="utopia h1 mt3">Got it.</h2>
+                    <p class="center line-height-5 measure-s mx-auto pb2">
+                        We’ll send you a quick text now to confirm your question and say 👋.
+                    </p>
+                </div>
+                <div class="marketing-modal__content js-marketing-content js-sms-B-success center">
+                    <span class="h1">📲</span>
+                    <h2 class="utopia h1 mt3">Got it.</h2>
+                    <p class="center line-height-5 measure-s mx-auto pb2">
+                        We'll send you a quick text to confirm your number and get you started.
+                    </p>
+                </div>
+                <div class="marketing-modal__content js-marketing-content js-get-started center">
+                    <div class="clearfix center flex-column md-flex-row flex justify-center items-center max-width-5 sm-mx-auto mb4">
+                        <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                            <h2 class="utopia my0">5 Sessions</h2>
+                            <p class="o-50 mt0 mb3">$9.95</p>
+                        </div>
+                        <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                            <h2 class="utopia my0">15 Sessions</h2>
+                            <p class="o-50 mt0 mb3">$19.99</p>
+                        </div>
+                        <div class="price-plan col col-10 md-col-5 m1 sm-px3 py4">
+                            <h2 class="utopia my0">Unlimited</h2>
+                            <p class="o-50 mt0 mb3">$29.99 /month</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-column items-center">
+                        <p class="h6 measure mx-auto gray center italic opacity-75">
+                            💳 &nbsp;processed securely through Stripe.<br />
+                            Experts are online from 8am - 8pm PST.
+                        </p>
+                        <div class="my2" style="width: 12rem;">
+                            <img src="img/verified-and-secured.png" alt="Verified and secured" />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="marketing-modal__content js-marketing-content js-start-survey js-begin-survey center">
+                    <h2 class="utopia h0">Begin your survey.</h2>
+                    <p class="center line-height-5 measure-s mx-auto pb2">
+                        Thanks for helping us learn from your experience. We really look forward to hearing what you think.
+                    </p>
+                    <div class="js-sms-error error m1"></div>
+                    <form class="js-survey-form clearfix sm-flex items-center max-width-1 mx-auto" id="new_sign_up" action="/sign_ups" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+                        <input type="hidden" name="type" id="type" value="survey" />
+                        <div class="flex items-center col col-12 sm-col-10 bg-beige--dark p1 pl2 br4">
+                            <svg class="mr1" height="16" width="17">
+                                <use xlink:href="#email"></use>
+                            </svg>
+                            <input class="pl1" placeholder="What&#39;s your email?" type="email" name="sign_up[email]" id="sign_up_email" />
+                        </div>
+                        <input type="submit" name="commit" value="Start" class="blue mt2 sm-mt0 col col-12 sm-col-2 smooch-sms-form__submit" data-disable-with="Start" />
+                    </form>
+                    <h2 class="utopia h2 mt3 sm-mt4">Or continue as a paid customer.</h2>
+                    <p>Skip the survey and start your 1-week of coaching for $9.99.</p>
+                    <button class="px2 sm-px3 mt2 mb3 py1 h5 sm-h4 js-open-stripe button button--secondary br4" data-title="1 week" data-amount="999" type="button">Pay $9.99</button>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="bg-white py4 px3">
+            <div class="max-width-2 mx-auto">
+                <div class="clearfix mb3 md-mb2 flex justify-center">
+                    <a class="black mx2" href="/cdn-cgi/l/email-protection#a9dadcd9d9c6dbdde9c4c8d3c5c687c4cc">Contact</a>
+                </div>
+                <p class="h5 o-40 my0 center">&copy; Mazlo, 2017</p>
+            </div>
+        </footer>
+    </body>
+</html>
